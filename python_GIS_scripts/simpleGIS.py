@@ -1,3 +1,13 @@
+"""
+simpleGIS.py
+
+Complete exercise from Joel Lawheads "Geospatial Analysis with Python, 2nd Ed". (2015). Pages 39-47.
+
+Hadleigh Thompson
+June 2016
+"""
+
+
 import turtle as t
 
 name = 0
