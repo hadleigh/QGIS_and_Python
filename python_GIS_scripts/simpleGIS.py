@@ -6,12 +6,10 @@ pop = 2
 
 state = ["Colorado", [[-109,37], [-109,41], [-102,41], [-102, 37]], 5187582]
 
-state = {}
-
 cities = []
-cities.append(["Denver", [-104.98, 39.74], 632265.])
-cities.append(["Boulder", [-105.27, 40.02], 98889.])
-cities.append(["Durnago", [-107.88, 37.28], 17069.])
+cities.append(["Denver", [-104.98, 39.74], 632265])
+cities.append(["Boulder", [-105.27, 40.02], 98889])
+cities.append(["Durnago", [-107.88, 37.28], 17069])
 
 map_width = 400.
 map_height = 300.
@@ -77,6 +75,7 @@ for city in cities:
 	t.write(city[name] + ", pop: " + str(city[pop]), align='left')
 	t.up()
 
+t.pen(shown=False)
 t.done()
 
 
